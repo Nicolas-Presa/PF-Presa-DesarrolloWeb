@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/Imagenes/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos.css">
     <script src="https://kit.fontawesome.com/8bb94225b2.js" crossorigin="anonymous"></script>
     <title>JC Contacto</title>
 </head>
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="/index.html">Inicio</a>
+        <nav class="navegador">
+            <ol class="navegador1">
+                <li class="busqueda">
+                    <a href="./index.html">Inicio</a>
                 </li>
-                <li>
-                    <a href="/Pages/Quien-Soy.html">Quien Soy</a>
+                <li class="busqueda">
+                    <a href="./Pages/Quien-Soy.html">Quien Soy</a>
                 </li>
-                <li>
-                    <a href="/Pages/Servicios.html">Servicios</a>
+                <li class="busqueda">
+                    <a href="./Pages/Servicios.html">Servicios</a>
                 </li>
-                <li>
-                    <a href="/Pages/Donde-Encontrarme.html">Donde Encontrarme</a>
+                <li class="busqueda">
+                    <a href="./Pages/Donde-Encontrarme.html">Donde Encontarme</a>
                 </li>
-                <li>
-                    <a href="/Pages/Contactame.html">Contactame</a>
+                <li class="busqueda active">
+                    <a href="./Pages/Contactame.html">Contactame</a>
                 </li>
-            </ul>
+            </ol>
         </nav>
-        <h1>Contactame</h1>
+        <div class="titulos">
+            <h1>Contactame</h1>
+        </div>
     </header>
     
     <main>
@@ -62,19 +65,19 @@
 <hr>
         <form action="">
             <label for="Nombre">Nombre</label>
-            <input type="name">
+                <input type="name">
             <label for="Email">Email</label>
-            <input type="email">
+                <input type="email">
             <label for="Consulta">Consulta</label>
-            <textarea name="Consulta" id="consulta" cols="30" rows="10"></textarea>
+                <textarea name="Consulta" id="consulta" cols="30" rows="10"></textarea>
             <label for="Funcional">Funcional</label>
-            <input type="radio" name="elegir">
+                <input type="radio" name="elegir">
             <label for="Grupal">Grupal</label>
-            <input type="radio" name="elegir">
+                <input type="radio" name="elegir">
             <label for="Personal">Personal</label>
-            <input type="radio" name="elegir">
+                <input type="radio" name="elegir">
             <label for="Solo Consulta">Solo Consulta</label>
-            <input type="radio" name="elegir">
+                <input type="radio" name="elegir">
             <button type="submit">Enviar</button>
             <button type="reset">Borrar</button>
         </form>

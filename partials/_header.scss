@@ -1,0 +1,53 @@
+body{
+    background-image: $fondo1;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-decoration: underline rgb(63, 58, 58);
+    font-family: $letratitulo;
+    color: $colorletra2;
+
+    h1{
+        padding-bottom: 10px;
+    }
+
+}
+
+.navegador1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-block: 40px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: none;
+
+    .busqueda{
+        display: inline;
+
+        &.active{
+                text-decoration: double underline;
+            }
+    }
+}
+
+.busqueda a{
+    text-decoration: none;
+    color: $colorletra2;
+
+    &:hover{
+        color: rgb(156, 149, 149);
+        background-color: black;
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
+
+hr{
+    margin-block: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}

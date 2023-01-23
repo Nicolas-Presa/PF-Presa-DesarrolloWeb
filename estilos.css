@@ -1,1 +1,84 @@
-/*# sourceMappingURL=estilos.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Russo+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: black;
+  color: rgb(104, 104, 104);
+}
+*::selection {
+  background-color: black;
+  color: rgb(104, 104, 104);
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ececec, #c5c5c5, #9f9f9f, #7a7a7a, #585858, #585858, #585858, #585858, #7a7a7a, #9f9f9f, #c5c5c5, #ececec);
+}
+
+.titulos {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+  -webkit-text-decoration: underline rgb(63, 58, 58);
+          text-decoration: underline rgb(63, 58, 58);
+  font-family: "Russo One", sans-serif;
+  color: rgb(48, 48, 48);
+}
+.titulos h1 {
+  padding-bottom: 10px;
+}
+
+.navegador1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-block: 40px 25px;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+.navegador1 .busqueda {
+  display: inline;
+}
+.navegador1 .busqueda.active {
+  -webkit-text-decoration: double underline;
+          text-decoration: double underline;
+}
+
+.busqueda a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+}
+.busqueda a:hover {
+  color: rgb(156, 149, 149);
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+hr {
+  margin-block: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-block: 20px;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.final a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+}/*# sourceMappingURL=estilos.css.map */
