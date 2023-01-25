@@ -1,0 +1,58 @@
+.servicios__contenedor{
+    display: flex;
+    justify-content: space-evenly;
+
+    .servicios__contenedor1{
+        background-color: $colorletra1;
+        width: 400px;
+        padding: 10px;
+        border-radius: 20px;
+
+        &:hover{
+            transition: 1s;
+            transform: scale(0.9);
+        
+        }
+    }
+
+    .servicios__imagen{
+        max-width: 100%;
+    }
+
+    .servicios__titulo{
+        padding-top: 5px;
+        text-align: center;
+        font-size: 20px;
+        font-family: $letratitulo;
+        color: $colorletra2;
+    }
+
+    .servicios__texto{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-family: $letratexto;
+        color: $colorletra2;
+    }
+
+    .servicios__boton{
+        padding: 10px;
+        border:none;
+        border-radius: 5px;
+        text-decoration: underline;
+    }
+
+    .servicios__boton a{
+        text-decoration: none;
+        padding: 2px;
+        border-radius: 10px;
+        color: $colorletra2;
+        font-family: $letratexto;
+    }
+
+    .boton{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

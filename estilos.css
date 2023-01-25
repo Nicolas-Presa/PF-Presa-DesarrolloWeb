@@ -162,4 +162,53 @@ hr {
   padding: 20px;
   text-align: center;
   font-family: "Anton", sans-serif;
+}
+
+.servicios__contenedor {
+  display: flex;
+  justify-content: space-evenly;
+}
+.servicios__contenedor .servicios__contenedor1 {
+  background-color: rgb(199, 199, 199);
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.servicios__contenedor .servicios__contenedor1:hover {
+  transition: 1s;
+  transform: scale(0.9);
+}
+.servicios__contenedor .servicios__imagen {
+  max-width: 100%;
+}
+.servicios__contenedor .servicios__titulo {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Russo One", sans-serif;
+  color: rgb(48, 48, 48);
+}
+.servicios__contenedor .servicios__texto {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-family: "Anton", sans-serif;
+  color: rgb(48, 48, 48);
+}
+.servicios__contenedor .servicios__boton {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+.servicios__contenedor .servicios__boton a {
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 10px;
+  color: rgb(48, 48, 48);
+  font-family: "Anton", sans-serif;
+}
+.servicios__contenedor .boton {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=estilos.css.map */
