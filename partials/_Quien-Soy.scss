@@ -42,6 +42,7 @@
 }
 
 .titulo2{
+    padding-top: 20px;
     text-align: center;
     font-family: $letratitulo;
     font-size: 30px;
@@ -64,13 +65,37 @@
 @media only screen and (max-width: 480px){
     .contenedorquiensoy{
         width: 100%;
-        height: 900px;
+        height: 1100px;
         padding: 10px;
         border: 10px solid $colorletra2;
         border-radius: 10px;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 240px 240px;
+        grid-template-rows: 220px 220px 220px;
         grid-template-areas: 
+        "fotito1 fotito1"
+        "fotito1 fotito1"
+        "fotito1 fotito1"
+        "fotito1 fotito1"
+        "fotito1 fotito1"
+        "fotito2 fotito2"
+        "fotito2 fotito2"
+        ;
+    }
+}
+
+
+// Esta resolucion de 400px fue un extra al ver que no podia adaptarlo a mi telefono personal, quise transformarlo en display flex como el HTML "Donde-Encontrarme" pero la imagen desaparecia por completo, no le encontre la vuelta y si bien la resolucion 480 se ve bien, en mi telefono salia la imagen del border y no podia hacer que las dos queden bien con el mismo tamaño asi que añadi esta resolucion extra para que se pueda ver bien desde un telefono como el mio, mas capricho que otra cosa pero si lees esto y le encontras la solucion me gustaria saberla que seguro me sirve a futuro jajaja //
+@media only screen and (max-width: 400px){
+    .contenedorquiensoy{
+        width: 100%;
+        height: 1200px;
+        padding: 10px;
+        border: 10px solid $colorletra2;
+        border-radius: 10px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 220px 220px 220px;
+        grid-template-areas: 
+        "fotito1 fotito1"
         "fotito1 fotito1"
         "fotito1 fotito1"
         "fotito1 fotito1"
