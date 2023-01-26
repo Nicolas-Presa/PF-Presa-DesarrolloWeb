@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .redes a{
@@ -33,9 +33,9 @@
 }
 
 .formulario{
-    width: 95%;
+    width: 100%;
     display: flex;
-    padding-left: 90px;
+    align-items: center;
     text-align: center;
     flex-direction: column;
     gap: 0.2rem;

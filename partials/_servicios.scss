@@ -56,3 +56,12 @@
     }
 }
 
+@media only screen and (max-width: 768px){
+    .servicios__contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+

@@ -34,3 +34,41 @@
 .textodelgym{
     padding-bottom: 10px;
 }
+
+
+@media only screen and (max-width: 768px){
+    .contenedordondeencontrarme
+    {
+        height: 600px;
+
+        .donde{
+            height: 560px;
+            font-size: 15px;
+        }
+
+        .encontrarme2{
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .contenedordondeencontrarme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+        width: 100%;
+        height: 1000px;
+        border: 10px solid $colorletra2;
+        border-radius: 10px;
+
+        .encontrarme1{
+            width: 95%;
+        }
+
+        .encontrarme1{
+            width: 95%;
+        }
+    }
+}
