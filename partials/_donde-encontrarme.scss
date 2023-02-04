@@ -1,19 +1,22 @@
 .contenedordondeencontrarme{
     width: 100%;
-    height: 500px;
+    justify-content: flex-start;
+    gap: 0.5rem;
     display: grid;
-    justify-content: center;
-    grid-template-columns: 250px 250px 200px 200px;
-    grid-template-rows: 250px 250px 200px 200px;
+    border: 10px solid $colorletra2;
+    border-radius: 10px;
+    grid-template-columns: 20% 25% 20% 25%;
+    grid-template-rows: 10rem;
     grid-template-areas: 
     "encontrarme1 encontrarme1 encontrarme2 encontrarme2"
     "encontrarme1 encontrarme1 encontrarme2 encontrarme2"
+    "encontrarme1 encontrarme1 encontrarme2 encontrarme2"
+    "encontrarme1 encontrarme1 encontrarme2 encontrarme2"
+    
     ;
 }
 
 .donde{
-    width: 500px;
-    height: 500px;
     border-radius: 10px;
 }
 .encontrarme1{
@@ -25,9 +28,12 @@
 
 .encontrarme2{
     grid-area: encontrarme2;
-    padding: 25px 10px 10px 10px;
-    font-family: $letratexto;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 18px;
+    font-family: $letratexto;
     color: $colorletra2;
 }
 
@@ -36,39 +42,23 @@
 }
 
 
+
 @media only screen and (max-width: 768px){
-    .contenedordondeencontrarme
-    {
-        height: 600px;
-
-        .donde{
-            height: 560px;
-            font-size: 15px;
-        }
-
-        .encontrarme2{
-            width: 80%;
-        }
-    }
-}
-
-@media only screen and (max-width: 480px){
     .contenedordondeencontrarme{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 5%;
         width: 100%;
-        height: 1000px;
+        padding: 10px;
         border: 10px solid $colorletra2;
         border-radius: 10px;
-
-        .encontrarme1{
-            width: 95%;
-        }
-
-        .encontrarme1{
-            width: 95%;
-        }
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 220px 220px 220px;
+        grid-template-areas: 
+        "encontrarme1 encontrarme1"
+        "encontrarme1 encontrarme1"
+        "encontrarme1 encontrarme1"
+        "encontrarme1 encontrarme1"
+        "encontrarme1 encontrarme1"
+        "encontrarme2 encontrarme2"
+        "encontrarme2 encontrarme2"
+        ;
     }
 }
