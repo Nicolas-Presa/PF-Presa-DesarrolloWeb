@@ -1,4 +1,4 @@
-.wpp{
+.icon__wpp{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,12 +6,12 @@
     font-size: 25px;
 }
 
-.wpp a{
+.icon__wpp a{
     text-decoration: none;
     color: $colorletra1;
 }
 
-.ubicacion{
+.icon__location{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,19 +20,19 @@
     padding-bottom: 10px;
 }
 
-.redessociales{
+.icon__network{
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
     font-size: 20px;
 }
 
-.redessociales a{
+.icon__network a{
     text-decoration: none;
     color: $colorletra1;
 }
 
-.formulario{
+.form{
     width: 100%;
     display: flex;
     align-items: center;
@@ -49,17 +49,17 @@
     padding: 5px;
 }
 
-.enviarborrar{
+.form__buttons{
     text-align: center;
 
-    .enviarborrar1{
+    .form__button{
         padding: 10px;
         background-color: $colorletra1;
         border-radius: 10px;
         padding: 5px;
 }
 
-.opciones{
+.form__options{
     padding-block: 10px;
     }
 }
@@ -67,7 +67,7 @@
 }
 
 @media only screen and (max-width: 576px){
-    .redessociales{
+    .icon__network{
         flex-direction: column;
         text-align: center;
         gap: 1rem;

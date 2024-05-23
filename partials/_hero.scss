@@ -1,4 +1,4 @@
-.contenedor{
+.main__container{
     display: flex;
     gap: 1rem;
     padding: 20px;
@@ -6,7 +6,7 @@
     justify-content: space-evenly;
 }
 
-.imagen{
+.main__image__container{
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 50px;
@@ -17,11 +17,11 @@
         transform: scale(0.9);
     }
 
-    .imagen__1{
+    .main__image{
         width: 100%;
     }
 
-    .imagen__titulo{
+    .main__title{
         font-size: 24px;
         text-align: center;
         font-family: $letratexto;
@@ -30,7 +30,7 @@
 }
 
 @media only screen and (max-width: 576px){
-    .contenedor{
+    .main__container{
         flex-direction: column;
     }
 }

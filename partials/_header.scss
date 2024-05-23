@@ -2,7 +2,7 @@ body{
     background-image: $fondo1;
 }
 
-.titulos{
+.title{
     text-align: center;
     font-size: 30px;
     padding-bottom: 10px;
@@ -23,7 +23,7 @@ body{
     }
 }
 
-.navegador1{
+.navigation__list{
     display: flex;
     padding: 10px;
     flex-direction: row;
@@ -33,7 +33,7 @@ body{
     text-decoration: none;
     text-transform: none;
 
-    .busqueda{
+    .search{
         display: inline;
 
         &.active{
@@ -42,7 +42,7 @@ body{
     }
 }
 
-.busqueda a{
+.search a{
     text-decoration: none;
     color: $colorletra2;
 
@@ -62,7 +62,7 @@ hr{
 
 @media only screen and (max-width: 768px){
 
-    .navegador1{
+    .navigation__list{
         flex-direction: column;
         gap: 1rem;
         align-items: center;
@@ -71,7 +71,7 @@ hr{
 
 @media only screen and (max-width: 576px){
 
-    .navegador1{
+    .navigation__list{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
